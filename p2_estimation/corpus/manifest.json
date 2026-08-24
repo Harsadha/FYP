@@ -1,0 +1,182 @@
+[
+  {
+    "document_id": "swg21512700",
+    "title": "IBM Silently installing AppScan Source on supported OS results in \"This is not a supported operating system\" - United States",
+    "file": "corpus/swg21512700.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1SE46234",
+    "title": "IBM SE46234: WEBSPHERE MQ V7: JAVA APPLICATION FAILS TO CONNECT TO SERVER    WITH MESSAGE AMQ9208, AMQ6048, AMQ9492 DURING DATA CONVERSION - United States",
+    "file": "corpus/swg1SE46234.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21509510",
+    "title": "IBM How to delete a document hierarchy node in IBM Datacap Taskmaster Capture - United States",
+    "file": "corpus/swg21509510.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21960879",
+    "title": "IBM Infosphere Data Replication: Log reading configuration when installing on Oracle Exadata as Target - United States",
+    "file": "corpus/swg21960879.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1IZ17689",
+    "title": "IBM IZ17689: SLOW LOGON - 6.3 MEG JAR DOWNLOADED EACH TIME - United States",
+    "file": "corpus/swg1IZ17689.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21278833",
+    "title": "IBM WSDL configuration in High Availability environment - United States",
+    "file": "corpus/swg21278833.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1PH00908",
+    "title": "IBM PH00908: WASX7487E(BLUEMIXUTILITY.PY) HAPPENS ON REMOTE CUSTOMER'S WSADMIN CLIENT - United States",
+    "file": "corpus/swg1PH00908.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1PM70736",
+    "title": "IBM PM70736: SSO (SINGLE SIGN ON) AUTHENTICATION DOESN'T WORK IN 1-WAY TRUST MULTIPLE DOMAIN ENVIRONMENT. - United States",
+    "file": "corpus/swg1PM70736.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21973794",
+    "title": "IBM Optim, Optim Connect, ODM, and Optim zOS licensing - United States",
+    "file": "corpus/swg21973794.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg22000851",
+    "title": "IBM Readme file for the IBM Maximo Spatial Asset Management 7.6.0.2 fix pack release - United States",
+    "file": "corpus/swg22000851.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21380855",
+    "title": "IBM DFHFC0304 and DFHFC0959 during initialization of CICS on z/VSE - United States",
+    "file": "corpus/swg21380855.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1HE11710",
+    "title": "IBM HE11710: The Content Collector indexer for text search does not process certain Domino email with embedded MIME parts correctly - United States",
+    "file": "corpus/swg1HE11710.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg24041476",
+    "title": "IBM Operational Decision Manager V7.5.0.0: Interim Fix 48 - United States",
+    "file": "corpus/swg24041476.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1PM58956",
+    "title": "IBM PM58956: WMQ: STARTUP OF A SHARED CHANNEL HANGS. OTHER ATTEMPTS TO START IT GET CSQX478E CHANNEL IS ACTIVE, CONNECTION TAG IN - United States",
+    "file": "corpus/swg1PM58956.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21580345",
+    "title": "IBM Collecting Data: Policies for WebSphere Portal - United States",
+    "file": "corpus/swg21580345.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg24041472",
+    "title": "IBM Operational Decision Manager V8.6.0.0: Interim Fix 26 - United States",
+    "file": "corpus/swg24041472.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg27048798",
+    "title": "IBM CDM TLS 1.2 Support - United States",
+    "file": "corpus/swg27048798.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "nas8N1020185",
+    "title": "IBM Official Support Statement for the IBM WebSphere Application Server Product on the IBM i OS - United States",
+    "file": "corpus/nas8N1020185.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21608744",
+    "title": "IBM Silent Install - United States",
+    "file": "corpus/swg21608744.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21996059",
+    "title": "IBM Security Bulletin: Vulnerability identified in IBM WebSphere Application Server shipped with IBM WebSphere Service Registry and Repository (CVE-2016-8934) - United States",
+    "file": "corpus/swg21996059.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1IZ98704",
+    "title": "IBM IZ98704: T6 TRACE-ROBOTIC.LOG SERVICEABILITY ISSSUE FOR RPT SAP GUI PBACK - United States",
+    "file": "corpus/swg1IZ98704.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg24038805",
+    "title": "IBM Downloading IBM Care Management 6.0 - United States",
+    "file": "corpus/swg24038805.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21619985",
+    "title": "IBM Is there a limit to the number of sources that can be defined? - United States",
+    "file": "corpus/swg21619985.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21650546",
+    "title": "IBM Product installation using DE fails with error ACUOSI0050E - United States",
+    "file": "corpus/swg21650546.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1PI39800",
+    "title": "IBM PI39800: RATIONAL DEVELOPER FOR SYSTEM Z (RDZ) : COBOL PARSER PROVOKES AN INDEXOUTOFBOUNDSEXCEPTION ERROR - United States",
+    "file": "corpus/swg1PI39800.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21970741",
+    "title": "IBM FileNet Workplace XT Unable to log in and launch the bootstrap page. Getting NullPointerException - United States",
+    "file": "corpus/swg21970741.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1IV76271",
+    "title": "IBM IV76271: ITCAM FOR SOA 7.2 FP1 IFIX 5 (SDA PROBLEM) SOA AGENT IS HAVING TROUBLE TRANSFERRING THE MANIFEST FILE. - United States",
+    "file": "corpus/swg1IV76271.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg1PI80202",
+    "title": "IBM PI80202: UPDATE RACF STATS FOR IMS CONNECT RACF USER AUTH CALLS FOR ODBM CLIENTS - United States",
+    "file": "corpus/swg1PI80202.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21687696",
+    "title": "IBM InforSphere CDC: How to enable Verbose GC trace for CDC - United States",
+    "file": "corpus/swg21687696.txt",
+    "source": "IBM TechQA"
+  },
+  {
+    "document_id": "swg21498516",
+    "title": "IBM Where can I find WDI Data Formats for SAP IDocs? - United States",
+    "file": "corpus/swg21498516.txt",
+    "source": "IBM TechQA"
+  }
+]
