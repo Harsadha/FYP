@@ -45,18 +45,19 @@ class MockGraphClient(GraphClient):
 
 def run_pipeline_for_change(
     client: GraphClient,
-    change_event_id: str,
-    changed_artifact_id: str,
+    change_event: dict,
 ) -> list:
     """
     Wires: get_candidates() -> get_embedding() -> estimate_impact().
     Works identically whether `client` is the Day-1 mock or P1's real
     Neo4j-backed client -- that's the point of freezing the interface.
     """
-    from similarity_estimator import estimate_impact
-
+    from .similarity_estimator import estimate_impact
+    
+    changed_artifact_id = change_event["source_artifact_id"]
+    
     changed_embedding = client.get_embedding(changed_artifact_id)
     candidate_ids = client.get_candidates(changed_artifact_id)
     candidates = [(cid, client.get_embedding(cid)) for cid in candidate_ids]
 
-    return estimate_impact(change_event_id, changed_embedding, candidates)
+    return estimate_impact(change_event_id=change_event["event_id"], changed_embedding=changed_embedding, candidates=candidates)

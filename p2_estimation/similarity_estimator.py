@@ -15,7 +15,7 @@ exactly (see models.py / /schemas/impact_estimate.json).
 from typing import List, Tuple, Optional
 import numpy as np
 
-from models import ImpactEstimate
+from .models import ImpactEstimate
 
 # Fixed confidence for this deterministic estimator during the sprint.
 # Not learned/calibrated -- that's Month 3+ (LightGBM) work.
@@ -27,7 +27,7 @@ def _cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
     if denom == 0.0:
         return 0.0
     sim = float(np.dot(a, b) / denom)  # in [-1, 1]
-    return max(0.0, min(1.0, (sim + 1.0) / 2.0))  # rescaled into [0, 1]
+    return max(0.0, min(1.0, sim) ) # rescaled into [0, 1]
 
 
 def estimate_impact(

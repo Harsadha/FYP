@@ -21,6 +21,7 @@ from typing import List
 import re
 import warnings
 import numpy as np
+import hashlib
 
 _model = None
 _model_load_failed = False
@@ -51,7 +52,10 @@ def _bow_embed(chunks: List[str], dim: int = 256) -> List[np.ndarray]:
         vec = np.zeros(dim, dtype=np.float32)
         words = re.findall(r"[a-z0-9]+", text.lower())
         for w in words:
-            idx = _vocab.setdefault(w, hash(w) % dim)
+            idx = int(
+                hashlib.sha256(w.encode()).hexdigest(),
+                16
+            ) % dim
             vec[idx] += 1.0
         norm = np.linalg.norm(vec)
         if norm > 0:
