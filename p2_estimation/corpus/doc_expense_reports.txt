@@ -1,9 +1,0 @@
-Filing Expense Reports
-
-Employees submit expense reports through the finance portal within 30
-days of incurring the expense. Each line item requires a receipt
-image and a cost-center code.
-
-Manager approval is required for any single line item exceeding $500.
-Reports are reconciled monthly, and reimbursements are issued via
-direct deposit within two pay cycles of final approval.
