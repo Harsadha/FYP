@@ -1,0 +1,7 @@
+{
+  "event_id": "string",
+  "source_artifact_id": "string",
+  "change_type": "CREATE | UPDATE | DELETE",
+  "new_content_hash": "string",
+  "detected_at": "ISO8601 string"
+}

@@ -1,0 +1,5 @@
+{
+  "artifact_id": "string",
+  "action": "update | invalidate | retain",
+  "reason": "string (which estimator/score drove this)"
+}

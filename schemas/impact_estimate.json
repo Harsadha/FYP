@@ -1,0 +1,8 @@
+{
+  "change_event_id": "string",
+  "artifact_id": "string",
+  "artifact_type": "CHUNK | EMBEDDING",
+  "impact_score": "float [0,1]",
+  "estimator": "TRACE | SIMILARITY",
+  "confidence": "float [0,1]"
+}
