@@ -15,7 +15,7 @@ exactly (see models.py / /schemas/impact_estimate.json).
 from typing import List, Tuple, Optional
 import numpy as np
 
-from models import ImpactEstimate
+from p2_estimation.models import ImpactEstimate
 
 # Fixed confidence for this deterministic estimator during the sprint.
 # Not learned/calibrated -- that's Month 3+ (LightGBM) work.
