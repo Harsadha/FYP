@@ -52,7 +52,7 @@ def run_pipeline_for_change(
     Works identically whether `client` is the Day-1 mock or P1's real
     Neo4j-backed client -- that's the point of freezing the interface.
     """
-    from .similarity_estimator import estimate_impact
+    from similarity_estimator import estimate_impact
     
     changed_artifact_id = change_event["source_artifact_id"]
     
