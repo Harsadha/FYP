@@ -1,0 +1,35 @@
+
+services:
+  redpanda:
+    image: redpandadata/redpanda:v23.3.5
+    container_name: redpanda
+    command:
+      - redpanda
+      - start
+      - --smp=1
+      - --memory=1G
+      - --reserve-memory=0M
+      - --overprovisioned
+      - --node-id=0
+      - --check=false
+      - --kafka-addr=PLAINTEXT://0.0.0.0:9092
+      - --advertise-kafka-addr=PLAINTEXT://localhost:9092
+    ports:
+      - "9092:9092"
+      - "9644:9644"
+
+  neo4j:
+    image: neo4j:5.20
+    container_name: neo4j
+    environment:
+      NEO4J_AUTH: neo4j/Tpassword123
+    ports:
+      - "7474:7474"   # browser UI
+      - "7687:7687"   # bolt protocol (what your Python code connects to)
+    volumes:
+      - neo4j_data:/data
+
+volumes:
+  neo4j_data:
+  
+  
